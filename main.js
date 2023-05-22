@@ -19,12 +19,12 @@ const cubeGeometry = new THREE.BoxGeometry(3, 3, 3);
 // Load the images as textures
 const textureLoader = new THREE.TextureLoader();
 const textures = [
-  textureLoader.load('social.png', () => {}, undefined, err => console.error(err)),
-  textureLoader.load('social2.png', () => {}, undefined, err => console.error(err)),
-  textureLoader.load('enivironent1.png', () => {}, undefined, err => console.error(err)),
-  textureLoader.load('envionment2.png', () => {}, undefined, err => console.error(err)),
-  textureLoader.load('goverance1.png', () => {}, undefined, err => console.error(err)),
-  textureLoader.load('goverance2.png', () => {}, undefined, err => console.error(err)),
+  textureLoader.load('public/social.png', () => {}, undefined, err => console.error(err)),
+  textureLoader.load('public/social2.png', () => {}, undefined, err => console.error(err)),
+  textureLoader.load('public/enivironent1.png', () => {}, undefined, err => console.error(err)),
+  textureLoader.load('public/envionment2.png', () => {}, undefined, err => console.error(err)),
+  textureLoader.load('public/goverance1.png', () => {}, undefined, err => console.error(err)),
+  textureLoader.load('public/goverance2.png', () => {}, undefined, err => console.error(err)),
 ];
 
 // Create an array of materials with textures applied to each face
